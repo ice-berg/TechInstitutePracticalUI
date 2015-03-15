@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="rectangle">
+	<!-- 四角形の四隅を丸くする -->
+	<corners
+		android:radius="100dp"/>
+
+	<!-- グラデーションをつける -->
+	<gradient
+		android:angle="45"
+		android:startColor="#ff694500"
+		android:endColor="#fffff400"/>
+
+	<!-- パディングを指定する -->
+	<padding
+		android:top="10dp"
+		android:bottom="10dp"
+		android:left="10dp"
+		android:right="10dp"/>
+
+	<!-- サイズを指定する -->
+	<size
+		android:height="100dp"
+		android:width="300dp"/>
+
+	<!-- 色指定。グラデーションより優先される -->
+	<!--
+	<solid
+		android:color="#ffff0004"/>
+	-->
+
+	<!-- 枠線 -->
+	<stroke
+		android:color="#ffffffff"
+		android:width="8dp"
+		android:dashGap="5dp"
+		android:dashWidth="20dp"/>
+</shape>

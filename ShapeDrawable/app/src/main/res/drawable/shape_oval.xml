@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shape="oval">
+	<!-- グラデーションをつける -->
+	<gradient
+		android:angle="45"
+		android:startColor="#ff694500"
+		android:endColor="#fffff400"/>
+
+	<!-- サイズを指定する -->
+	<size
+		android:width="100dp"
+		android:height="100dp"/>
+</shape>

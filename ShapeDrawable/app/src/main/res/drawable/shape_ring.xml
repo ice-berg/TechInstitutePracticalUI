@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+android:thickness="1dp"　同心円の厚みの設定
+android:useLevel　通常はfalseにしないと外形が表示されない場合がある
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+	   android:shape="ring"
+	   android:thickness="10dp"
+	   android:useLevel="false">
+	<!-- 線幅は必ず指定する必要がある -->
+	<stroke
+		android:color="#fffff400"
+		android:width="10dp" />
+</shape>

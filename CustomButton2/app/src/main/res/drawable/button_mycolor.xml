@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- ボタンが押されたときの定義 -->
+	<item android:state_pressed="true">
+		<shape android:shape="rectangle">
+			<stroke android:width="2dp"
+					android:color="#01579b"/>
+		</shape>
+	</item>
+
+	<!-- ボタンが押されていないときの定義 -->
+	<item android:state_pressed="false">
+		<shape android:shape="rectangle">
+			<stroke android:width="2dp"
+					android:color="#03a9f4"/>
+		</shape>
+	</item>
+
+	<!-- 全ての状態に適用される。そのため共通項目として定義 -->
+	<item>
+		<shape android:shape="rectangle">
+			<solid android:color="#ffffff"/>
+			<stroke android:width="2dp"
+					android:color="#03a9f4"/>
+			<corners android:radius="2dp"/>
+			<padding android:bottom="10dp"
+					 android:left="10dp"
+					 android:right="10dp"
+					 android:top="10dp"/>
+			<size android:width="30dp"
+				  android:height="30dp"/>
+		</shape>
+	</item>
+</selector>
