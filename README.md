@@ -8,6 +8,9 @@ Viewのカスタマイズ(テキストp.71)の講義内容の完成形。
 * PaintApp2  
 演習問題(テキストp.77)の緑色に変更する分のみ実装。
 
+* PaintApp3_ANS  
+演習問題(テキストp.77)の解答例。
+
 * ShapeDrawable  
 Shape Drawable(テキストp.80)の講義内容。
 
